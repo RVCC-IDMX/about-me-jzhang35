@@ -1,0 +1,30 @@
+body {
+    font-family:Inconsolata;
+    background-color: #F5A334;
+    color: #224AF4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Kanit";
+    font-size:40pt;
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    color:#2AF5EC;
+    border: 2px solid #64A9F5;
+    background-color:#A3683E;
+    text-align:center;
+    padding:10px;
+}
+
+#hero img {
+    width:300px;
+}
+
+#bio {
+    text-align: center;
+}
