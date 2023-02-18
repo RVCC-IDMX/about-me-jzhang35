@@ -1,7 +1,7 @@
 body {
     font-family:Hind;
-    background-color: #F5A334;
-    color: #0523FF;
+    background-color: #AB921A;
+    color: #0064DB;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,9 +14,9 @@ header {
 }
 
 #hero, footer {
-    color:#6DCA73;
-    border: 2px solid #64A9F5;
-    background-color:#A3683E;
+    color:#24E040;
+    border: 2px solid #00F2D2;
+    background-color:#537309;
     text-align:center;
     padding:10px;
 }
