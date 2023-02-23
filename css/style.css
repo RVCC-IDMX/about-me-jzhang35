@@ -28,3 +28,30 @@ header {
 #bio {
     text-align: center;
 }
+
+#hobbies {
+    text-align:center;
+    border:1px solid red;
+}
+
+#hobbies * {
+    border:1px solid;
+}
+
+#hobbies ul {
+    width: 350px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#hobbies ul li {
+    text-align:left;
+}
+
+#hobbies ul li:nth-child(3n+1) {
+    color: #3c87fa;
+}
+
+#hobbies ul li:nth-child(3n+2) {
+    color: red;
+}
