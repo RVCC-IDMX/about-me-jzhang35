@@ -71,3 +71,20 @@ header {
 #gallery img {
     max-width:100%;
 }
+
+/* Lit Section */
+
+#lit p:nth-child(odd)::first-letter {
+color:black;
+font-size: 250%;
+padding: 0.5ex;
+margin-right:.5ex;
+font-weight:bold;
+background-color:#eeeeee;
+text-shadow: 5px 5px 5px rgba(0,0,0,.5);
+box-shadow:3px 3px 3px rgba(0,0,0,.5);
+border-top-left-radius:1em;
+
+float:left;
+border:5px double black;
+}
