@@ -22,7 +22,9 @@ header {
 }
 
 #hero img {
-    width:300px;
+    width:50vw;
+    max-width:500px;
+    min-width:300px;
 }
 
 /* Biography */
@@ -30,23 +32,22 @@ header {
 #bio {
     text-align: center;
 }
-
+n
 /* Hobbies */
-
-#hobbies {
-    text-align:center;
-    border:1px solid red;
-}
 
 #hobbies * {
     border:1px solid;
 }
 
-#hobbies ul {
-    width: 350px;
-    margin-left:auto;
-    margin-right:auto;
-    max-width:100%;
+#hobbies {
+    display:flex;
+    flex-direction:column;
+    border:center;
+
+}
+
+#hobbies h2 {
+    margin: .5ex 10px;
 }
 
 #hobbies ul li {
@@ -72,6 +73,8 @@ header {
     max-width:100%;
 }
 
+
+
 /* Lit Section */
 
 #lit p:nth-child(odd)::first-letter {
@@ -87,4 +90,53 @@ border-top-left-radius:1em;
 
 float:left;
 border:5px double black;
+}
+
+#lit {
+    margin:3em;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+
+    #gallery * {
+        border: 1px solid black;
+    }
+
+    #gallery figure {
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #gallery figcaption {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    #lit div {
+        columns:100%;
+        columns:30rem;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    
+    #gallery {
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+
+    #gallery hr {
+        display:none;
+    }
+
+    #gallery h2 {
+        grid-column:1/-1;
+    }
+    #gallery figure {
+        display:block;
+    }
+
 }
