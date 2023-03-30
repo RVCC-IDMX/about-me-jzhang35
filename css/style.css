@@ -96,6 +96,44 @@ border:5px double black;
     margin:3em;
 }
 
+/* Contact Form */
+
+#contact {
+    max-width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:25px;
+}
+
+#contact fieldset {
+    border:2px solid #0749AD;
+    padding:1em;
+    border-radius:1em;
+}
+
+#contact legend {
+    background-color: #3c87fa;
+    color: white;
+    padding: 1ex;
+    border-bottom-right-radius:1ex;
+    border-top-left-radius:1ex;
+
+}
+
+#contact fieldset {
+    display:grid;
+}
+
+#contact label {
+    margin:1ex;
+}
+
+#contact fieldset fieldset {
+    grid-template-columns: 30px auto;
+}
+
+
+
 /* Media Queries */
 
 @media screen and (min-width: 768px) {
