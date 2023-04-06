@@ -14,7 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 
-<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/nav.css">
 
 </head>
 <body>
@@ -23,17 +24,31 @@
 
     <header>
         <!-- the header shows the logo and page title (don't confuse it for the head; that's different!) -->
-        
+        <nav class = "navbar">
+        <div class = "logo">
         <br>
         
-        <img src="/img/logo-96X96.svg" alt="Blue origami bird">
+        <img src="/img/logo-96X96.svg" alt="Blue origami bird" class = "log-img">
 
         <br>
         <br>
 
-        <h1>Web Dev I - Online!</h1>
+        <h1 class="logo-title">Web Dev I - Online!</h1>
 
         <br>
+        </div>
+        <div class = "navbar-links">
+            <ul>
+                <li>
+                    <li><a class = "nav-links" href = "#bio">Bio</a></li>
+                    <li><a class = "nav-links" href = "#hobbies">Hobbies</a></li>
+                    <li><a class = "nav-links" href = "#gallery">Gallery</a></li>
+                    <li><a class = "nav-links" href = "#lit">Blog</a></li>
+                    <li><a class = "nav-links" href = "#contact">Contact Me</a></li>
+                </li>
+            </ul>
+        </div>
+        </nav>
 
     </header>
 
