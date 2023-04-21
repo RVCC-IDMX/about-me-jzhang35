@@ -77,7 +77,7 @@ n
 
 /* Lit Section */
 
-#lit p:nth-child(odd)::first-letter {
+#lit p:first-child:first-letter {
 color:black;
 font-size: 250%;
 padding: 0.5ex;
